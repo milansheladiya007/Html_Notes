@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Html notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+<h2 class="head"> <b>(1) </b> Basic HTML document </h2>
+<div class="section code1">
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;<br>
+    &lt;body&gt;<br>
+
+    &lt;h1&gt;My First Heading&lt;/h1&gt;<br>
+    &lt;p&gt;My first paragraph.&lt;/p&gt;<br>
+
+    &lt;/body&gt;<br>
+    &lt;/html&gt;<br>
+</div>
+    <div class="explanation">
+        <ul>
+            <li>
+                The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document (tells to the Browser, what is the version of HTML
+            </li>
+            <li>
+                The &lt;html&gt; element is the root element of an HTML page tells to the Browser that everything between the opening, and closing tag will be an HTML- code).
+            </li>
+            <li>
+                The &lt;head&gt; element contains meta information about the HTML page.
+            </li>
+            <li>
+                The &lt;title&gt; element specifies a title for the HTML page (which are shown in the browser's title bar or in the page's tab)
+            </li>
+            <li>
+                The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+            </li>
+            <li>
+                The &lt;h1&gt; element defines a large heading and &lt;h6&gt; element defines a smallest heading.
+            </li>
+            <li>
+                The &lt;p&gt; element defines a paragraph
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+<hr>
+
+
+<div>
+    <h2 class="head"> <b>(2) </b> How to do comment </h2>
+    <div class="section code1">
+
+        &lt;!-- This is a comment --&gt;   or <br>
+
+        &lt;!-- This is a
+
+               comment too --&gt;
+    </div>
+    <div class="explanation">
+        Comments  are portion of the code  that have been marked out  to be ignored by the browser.
+    </div>
+
+</div>
+<hr>
+
+<div>
+    <h2 class="head"> <b>(3) </b> HTML &lt;a&gt; Tag </h2>
+    <div class="section code1">
+
+        &lt;a href="https://www.w3schools.com"&gt;Visit W3Schools.com!&lt;/a&gt;
+    </div>
+    <div class="explanation">
+        <ul>
+            <li>
+                The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.
+            </li>
+        </ul>
+    </div>
+
+</div>
+<hr>
+
+<div>
+    <h2 class="head"> <b>(4) </b> HTML Audio </h2>
+    <div class="section code1">
+
+        &lt;audio controls&gt;
+        &lt;source src="Audio url.mp3" type="audio/mpeg"&gt;
+        &lt;/audio&gt;
+    </div>
+    <div class="explanation">
+        <ul>
+            <li>
+                <figure>
+                    <figcaption>Listen to the audio:</figcaption>
+                    <audio
+                            controls
+                            src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                    </audio>
+                </figure>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<hr>
+
+<div>
+    <h2 class="head"> <b>(5) </b> The Video Element </h2>
+    <div class="section code1">
+
+        &lt;video controls width="250"&gt;
+        &lt;source src="video source"&gt;
+        &lt;/video&gt;
+    </div>
+    <div class="explanation">
+        <ul>
+            <li>
+                <video controls width="250">
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">
+                </video>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<hr>
+
+<div>
+    <h2 class="head"> <b>(6) </b> &lt;img&gt;: The Image Embed element </h2>
+    <div class="section code1">
+
+        &lt;img class="fit-picture"
+                 src="img source"&gt;
+    </div>
+    <div class="explanation">
+        <ul>
+            <li>
+                <img class="fit-picture"
+                     src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
+                     alt="Grapefruit slice atop a pile of other slices">
+            </li>
+        </ul>
+    </div>
+
+</div>
+<hr>
+
+
+<div>
+    <h2 class="head"> <b>(7) </b> HTML Tables </h2>
+    <div class="section code1">
+
+        &lt;table style="width:100%"&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;th&gt;Firstname&lt;/th&gt;<br>
+        &lt;th&gt;Lastname&lt;/th&gt;<br>
+        &lt;th&gt;Age&lt;/th&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;Jill&lt;/td&gt;<br>
+        &lt;td&gt;Smith&lt;/td&gt;<br>
+        &lt;td&gt;50&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;tr&gt;<br>
+        &lt;td&gt;Eve&lt;/td&gt;<br>
+        &lt;td&gt;Jackson&lt;/td&gt;<br>
+        &lt;td&gt;94&lt;/td&gt;<br>
+        &lt;/tr&gt;<br>
+        &lt;/table&gt;<br><br>
+
+
+        <table style="width:40%" border="1">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="explanation">
+        <ul>
+            <li>
+                The &lt;table&gt; tag defines an HTML table.
+            </li>
+               <li> Each table row is defined with a &lt;tr&gt; tag. Each table header is defined with a &lt;th&gt; tag. Each table data/cell is defined with a <td> tag.
+               </li>
+                <li>
+                    By default, the text in &lt;th&gt; elements are bold and centered.
+                </li>
+                <li>
+                    By default, the text in &lt;td&gt; elements are regular and left-aligned.
+                </li>
+
+        </ul>
+    </div>
+
+</div>
+<hr>
+
+
+<div>
+    <h2 class="head"> <b>(8) </b> HTML &lt;form&gt; Tag </h2>
+    <div class="section code1">
+
+        &lt;form action="/action_page.php"&gt;<br>
+        &lt;label for="fname"&gt;<br>First name:&lt;/label&gt;<br>
+        &lt;input type="text" id="fname" name="fname"&gt;<br>&lt;br&gt;<br>&lt;br&gt;<br>
+        &lt;label for="lname"&gt;<br>Last name:&lt;/label&gt;<br>
+        &lt;input type="text" id="lname" name="lname"&gt;<br>&lt;br&gt;<br>&lt;br&gt;<br>
+        &lt;input type="submit" value="Submit"&gt;<br>
+        &lt;/form&gt;<br>
+    </div>
+    <div class="explanation">
+        <ul>
+            <li>
+                <form action="/action_page.php">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+
+                    <h2> Radio button </h2>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                     <label for="html">HTML</label><br>
+                     <input type="radio" id="css" name="fav_language" value="CSS">
+                     <label for="css">CSS</label><br>
+
+                    <h2> check box </h2>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </li>
+        </ul>
+    </div>
+
+</div>
+<hr>
+
+</body>
+</html>

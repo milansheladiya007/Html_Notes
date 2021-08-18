@@ -1,0 +1,56 @@
+.head{
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+
+
+
+.section {
+
+    display: block;
+    width: 100%;
+    background: lightgray;
+}
+
+.code1{
+
+    font-family: MyFancyCustomFont, monospace;
+    font-size: inherit;
+    background: #ffeff0;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+}
+
+
+.code2{
+
+    font-family: MyFancyCustomFont, monospace;
+    font-size: inherit;
+    background: darkgrey;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+}
+
+
+hr {
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+.explanation{
+    background-color: lightgrey;
+    width: 90%;
+    border: 10px solid green;
+    padding: 25px;
+    margin: 20px;
+}
